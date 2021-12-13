@@ -21,8 +21,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: test_db
-      MYSQL_USER: yorgos
-      MYSQL_PASSWORD: yorgospass
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
     ports:
       - 6033:3300
 
